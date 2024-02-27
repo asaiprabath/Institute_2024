@@ -1,0 +1,40 @@
+{
+  "pages": [
+    {
+      "id": "Student_Fee",
+      "isDefault": false
+    },
+    {
+      "id": "Girls FIlter",
+      "isDefault": false
+    },
+    {
+      "id": "Student_Dashboard",
+      "isDefault": true
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "clonedFromApplicationId": "65ccf62c53ce7578889c4746",
+  "unpublishedApplicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    }
+  },
+  "color": "#C7F3F0",
+  "icon": "rocket",
+  "unpublishedAppLayout": {
+    "type": "TABLET_LARGE"
+  },
+  "publishedAppLayout": {
+    "type": "TABLET_LARGE"
+  },
+  "unpublishedCustomJSLibs": [],
+  "publishedCustomJSLibs": [],
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "isManualUpdate": false,
+  "deleted": false
+}
