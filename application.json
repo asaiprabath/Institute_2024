@@ -1,11 +1,11 @@
 {
   "pages": [
     {
-      "id": "Student_Fee",
+      "id": "Girls FIlter",
       "isDefault": false
     },
     {
-      "id": "Girls FIlter",
+      "id": "Student_Fee",
       "isDefault": false
     },
     {
