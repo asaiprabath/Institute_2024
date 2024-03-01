@@ -39,6 +39,7 @@
             "minHeight": 150,
             "mobileRightColumn": 393,
             "parentColumnSpace": 1,
+            "dynamicTriggerPathList": [],
             "leftColumn": 0,
             "dynamicBindingPathList": [
                 {"key": "borderRadius"},
@@ -47,7 +48,7 @@
             "isDisabled": false,
             "key": "w7sppakyqx",
             "isDeprecated": false,
-            "tabName": "Tab 1",
+            "tabName": "Total Students",
             "rightColumn": 393,
             "detachFromLayout": true,
             "dynamicHeight": "AUTO_HEIGHT",
@@ -82,6 +83,7 @@
             "minHeight": 150,
             "mobileRightColumn": 393,
             "parentColumnSpace": 1,
+            "dynamicTriggerPathList": [],
             "leftColumn": 0,
             "dynamicBindingPathList": [
                 {"key": "borderRadius"},
@@ -90,7 +92,7 @@
             "isDisabled": false,
             "key": "w7sppakyqx",
             "isDeprecated": false,
-            "tabName": "Tab 2",
+            "tabName": "Boys",
             "rightColumn": 393,
             "detachFromLayout": true,
             "dynamicHeight": "AUTO_HEIGHT",
@@ -124,6 +126,7 @@
             "minHeight": 360,
             "mobileRightColumn": 1015.25,
             "parentColumnSpace": 1,
+            "dynamicTriggerPathList": [],
             "leftColumn": 0,
             "dynamicBindingPathList": [
                 {"key": "borderRadius"},
@@ -131,7 +134,7 @@
             ],
             "key": "w7sppakyqx",
             "isDeprecated": false,
-            "tabName": "Tab 3",
+            "tabName": "Girls",
             "rightColumn": 1015.25,
             "detachFromLayout": true,
             "dynamicHeight": "AUTO_HEIGHT",
@@ -169,7 +172,7 @@
             "widgetId": "5i8lbwj2e9",
             "positioning": "vertical",
             "index": 0,
-            "label": "Tab 1",
+            "label": "Total Students",
             "id": "tab1",
             "isVisible": true
         },
@@ -177,7 +180,7 @@
             "widgetId": "he177edunz",
             "positioning": "vertical",
             "index": 1,
-            "label": "Tab 2",
+            "label": "Boys",
             "id": "tab2",
             "isVisible": true
         },
@@ -185,7 +188,7 @@
             "widgetId": "y06u31tycs",
             "index": 2,
             "id": "tabk95e9q4qr2",
-            "label": "Tab 3",
+            "label": "Girls",
             "isVisible": true
         }
     },

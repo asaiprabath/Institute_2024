@@ -28,7 +28,7 @@
         {"key": "primaryColumns.rowIndex.computedValue"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 1,
+    "leftColumn": 0,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "flexVerticalAlignment": "start",
@@ -544,7 +544,7 @@
     "key": "tive8gvhm5",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 63,
+    "rightColumn": 64,
     "textSize": "0.875rem",
     "widgetId": "k8bv311vo1",
     "minWidth": 450,
