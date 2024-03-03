@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": true,
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
-    "topRow": 34,
+    "topRow": 1,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -70,7 +70,7 @@
     "columnUpdatedAt": 1709049076575,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 68,
-    "widgetName": "Table1",
+    "widgetName": "Table1CopyCopy",
     "defaultPageSize": 0,
     "columnOrder": [
         "Student_id",
@@ -87,9 +87,9 @@
         "Student_photo",
         "rowIndex"
     ],
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 72,
+    "bottomRow": 34,
     "columnWidthMap": {},
     "parentRowSpace": 10,
     "hideCard": false,
@@ -99,7 +99,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "Student_fee": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Student_fee\"]))}}",
+            "computedValue": "{{Table1CopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Student_fee\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Student_fee",
@@ -133,7 +133,7 @@
             "verticalAlignment": "CENTER"
         },
         "Parent_phno": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Parent_phno\"]))}}",
+            "computedValue": "{{Table1CopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Parent_phno\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Parent_phno",
@@ -167,7 +167,7 @@
             "verticalAlignment": "CENTER"
         },
         "Student_name": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Student_name\"]))}}",
+            "computedValue": "{{Table1CopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Student_name\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Student_name",
@@ -201,7 +201,7 @@
             "verticalAlignment": "CENTER"
         },
         "Student_joiningdata": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Student_joiningdata\"]))}}",
+            "computedValue": "{{Table1CopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Student_joiningdata\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Student_joiningdata",
@@ -235,7 +235,7 @@
             "verticalAlignment": "CENTER"
         },
         "Student_gender": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Student_gender\"]))}}",
+            "computedValue": "{{Table1CopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Student_gender\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Student_gender",
@@ -269,7 +269,7 @@
             "verticalAlignment": "CENTER"
         },
         "Student_school": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Student_school\"]))}}",
+            "computedValue": "{{Table1CopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Student_school\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Student_school",
@@ -303,7 +303,7 @@
             "verticalAlignment": "CENTER"
         },
         "Institute_id": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Institute_id\"]))}}",
+            "computedValue": "{{Table1CopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Institute_id\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Institute_id",
@@ -337,7 +337,7 @@
             "verticalAlignment": "CENTER"
         },
         "Student_class": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Student_class\"]))}}",
+            "computedValue": "{{Table1CopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Student_class\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Student_class",
@@ -371,7 +371,7 @@
             "verticalAlignment": "CENTER"
         },
         "Student_photo": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Student_photo\"]))}}",
+            "computedValue": "{{Table1CopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Student_photo\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Student_photo",
@@ -405,7 +405,7 @@
             "verticalAlignment": "CENTER"
         },
         "Student_id": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Student_id\"]))}}",
+            "computedValue": "{{Table1CopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Student_id\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Student_id",
@@ -439,7 +439,7 @@
             "verticalAlignment": "CENTER"
         },
         "rowIndex": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"rowIndex\"]))}}",
+            "computedValue": "{{Table1CopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"rowIndex\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "rowIndex",
@@ -473,7 +473,7 @@
             "verticalAlignment": "CENTER"
         },
         "Parent_Name": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Parent_Name\"]))}}",
+            "computedValue": "{{Table1CopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Parent_Name\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Parent_Name",
@@ -507,7 +507,7 @@
             "verticalAlignment": "CENTER"
         },
         "Guardian_phno": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Guardian_phno\"]))}}",
+            "computedValue": "{{Table1CopyCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Guardian_phno\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Guardian_phno",
@@ -546,12 +546,12 @@
     "isDeprecated": false,
     "rightColumn": 63,
     "textSize": "0.875rem",
-    "widgetId": "k8bv311vo1",
+    "widgetId": "v9y77tu05e",
     "minWidth": 450,
-    "tableData": "{{Total_students.data}}",
+    "tableData": "{{ Total_students.data.filter(gender => gender.Student_gender === 'GIRL')}}\n",
     "label": "Data",
     "searchKey": "",
-    "parentId": "vq1lo21qu2",
+    "parentId": "y06u31tycs",
     "renderMode": "CANVAS",
     "mobileTopRow": 40,
     "horizontalAlignment": "LEFT",
