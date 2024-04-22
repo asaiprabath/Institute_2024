@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "widgetName": "Button2",
     "onClick": "{{ (Gender.selectedOptionValue && Class.selectedOptionValue && DOJ.selectedDate &&\n     Student_name_add.text && School.text && parentname.text && Fee.text ) ? \n   (Add_students.run().then(() => {\n      Total_students.run();\n      closeModal('');\n   }).catch(() => {\n      showAlert('ERROR IN CODE', 'error');\n   })) \n   : \n   showAlert('Please fill in all required fields before submitting.', 'error')\n}}\n",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonColor": "#86efac",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
@@ -18,10 +18,7 @@
     "animateLoading": true,
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 49,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
+    "dynamicBindingPathList": [{"key": "borderRadius"}],
     "text": "Confirm",
     "isDisabled": false,
     "key": "w2m8oqjkei",
