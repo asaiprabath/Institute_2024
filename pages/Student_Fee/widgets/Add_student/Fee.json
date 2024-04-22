@@ -3,14 +3,14 @@
     "widgetName": "Fee",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.f2c34197dbcf03595098986de898928f.svg",
     "displayName": "Input",
-    "topRow": 53,
+    "topRow": 39,
     "searchTags": [
         "form",
         "text input",
         "number",
         "textarea"
     ],
-    "bottomRow": 57,
+    "bottomRow": 43,
     "parentRowSpace": 10,
     "labelWidth": 5,
     "autoFocus": false,
@@ -20,7 +20,7 @@
     "parentColumnSpace": 9.65625,
     "dynamicTriggerPathList": [],
     "resetOnSubmit": true,
-    "leftColumn": 25,
+    "leftColumn": 24,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"}
@@ -33,7 +33,7 @@
     "labelTextSize": "0.875rem",
     "isRequired": false,
     "isDeprecated": false,
-    "rightColumn": 57,
+    "rightColumn": 56,
     "dynamicHeight": "FIXED",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "widgetId": "j0ex57mxxy",
